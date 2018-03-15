@@ -1,0 +1,133 @@
+html, header, #Inicial h1, #Inicial h4, #Inicial img {
+	max-width: 1920px !important;
+}
+a {
+	text-decoration: none;
+}
+a:focus {
+	outline: thin dotted;
+	outline: 0px auto -webkit-focus-ring-color;
+	outline-offset: 0px
+}
+header {
+	
+}
+h2 {
+	color: #BF3729;	
+	font-family: Raleway;	
+	font-size:2.80em;
+	font-weight: 600;	
+	line-height: 42px;
+	margin-bottom: 2em;
+}
+.container {
+	padding: 7em 6.2em;
+}
+
+.sidebar{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	position: fixed;
+	z-index: 100;
+	/*background-color: red;*/
+	justify-content: space-between;
+	transition: .3s;
+
+}
+
+.logo {
+	margin-left: 6.5em;
+}
+.navbar {
+	display: flex;
+	align-items: center;
+	margin-top: 1em;
+	margin-right: 5.5em;
+}
+.nav-links {
+	padding: 0px 1.2em;
+	color: #FFFFFF;	
+	font-family: Raleway;	
+	font-size: 14px;	
+	font-weight: 800;	
+	line-height: 16px;	
+	text-align: center;
+	width: 100%;
+	height: 7.5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: .3s;
+}
+.nav-links:hover,
+.nav-links:focus {
+	background-color: rgba(110,110,110,0.12);
+}
+.nav-links a {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #FFFFFF;	
+}
+
+footer {
+	height: 161px;	
+	width: 100%;	
+	background-color: #8A1F14;
+	display: flex;
+}
+.rodape-descricao {
+	height: 45px;	
+	width: 573px;	
+	color: #FFFFFF;
+	font-family: Raleway;	
+	font-size: 13px;		
+	line-height: 15px;
+}
+.rodape-conteudo {
+	padding: 5em;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.material-icons {
+	color: white;
+	font-size: 41px;
+	margin-left: 1.5em;
+	cursor: pointer;
+	
+}
+
+.rodape-desenvolvido {
+	height: 30px;	
+	width: 132px;	
+	color: #FFFFFF;	
+	font-family: Raleway;	
+	font-size: 13px;	
+	font-weight: 500;	
+	line-height: 15px;
+	position: absolute;
+	right: 13%;
+}
+.simbol-mangue {
+	height: 30px;
+	width: 50px;
+	position: absolute;	
+	right: 10%;
+}
+.scrolltop {
+
+	color: white !important;	
+}
+.label {
+    color: #433F3F;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    display: flex;
+}
